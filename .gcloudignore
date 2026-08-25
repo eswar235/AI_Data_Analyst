@@ -1,0 +1,22 @@
+# This file specifies files that are not uploaded to Google Cloud
+# when using `gcloud app deploy`
+
+# If you want to instead ignore files from the *same .gitignore file*, remove
+# the following line:
+#!.gitignore
+
+node_modules
+#!.gitignore
+
+__pycache__
+*.pyc
+venv/
+.venv/
+.env
+.env.local
+.DS_Store
+.git
+.gitignore
+.idea/
+.vscode/
+*.log
